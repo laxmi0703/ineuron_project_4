@@ -1,81 +1,88 @@
-.container {
-  display: block;
-  background-repeat: no-repeat;
-  position: relative;
-}
-
-.navbar-container {
-  display: flex;
+*{
   padding: 0px;
+  margin: 0px;
+}
+
+/* navbar section */
+.navbar-container{
+   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-}
+  justify-content: space-around;
+  margin-top: 2%; 
 
-.list {
+  
+}
+.navbar-container > img {
+   width: 120px;
+  
+}
+.list{
   display: flex;
-  list-style-type: none;
+  justify-content:flex-start;
+  list-style-type: none; 
+}
+.grow-list{
+margin-right: 40%;
+margin-top: 1%;
 }
 
-.list .list-item {
-  padding: 0px 20px
+.list-item{
+  font-size: 18px;
+  padding: 0px 20px;
+  color: rgb(191, 189, 189);
+  
+
+}
+.list-item:first-child{
+  color:black;
 }
 
-.banner-container {
-  font-size: 40px;
-  color: rgb(35, 102, 190);
-  margin: 50px;
+.nav-button{
+background-color:#5955b3;
+color: #fff;
+height:50px;
+width:120px;
+border-radius: 10px;
+border:none;
+font-size: 18px;
 }
 
-.button-group .nav-button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 10px 25px;
-  color: white;
-  background-color: rgb(76, 154, 223);
-  text-align: center;
-  cursor: pointer;
-  margin: 10px;
-  border-radius: 10px;
+/* Banner */
+
+.banner-container{
+ display: flex;
+ justify-content: space-between;
+ margin-top: 2%;
+
 }
 
 .heading-text{
-  color:rgb(61, 3, 96);
+  color:#3c2f60;
+  font-size: 78px;
+  margin-top: 15%;
+  margin-left: 20px;
+  font-family: 'Poppins', sans-serif;
 }
 
 span{
-  color: rgb(35, 102, 190);
+  color:#5955b3;
 }
- .description{
-  font-size: 13px;
-  color:rgb(125, 116, 116);
+.description{
+  font-family: 'Poppins', sans-serif;
+  color: rgb(191, 189, 189);
+  font-size: 15px;
+  margin-right: 15rem;
+  margin-left: 20px;
+  margin-bottom: 60px;
 
+ 
 }
 
 .nav-button.btn{
-    color: white;
-    border-radius: 5px;
-    background-color: rgb(21, 138, 216);
-    width: 200px;
-    border-color: rgb(21, 138, 216) ;
+  width:220px;
+  margin-left: 20px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.banner-container {
-  display: flex;
+/* Right Text  */
+.img{
+  margin-left: 9%;
 }
